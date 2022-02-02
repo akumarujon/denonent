@@ -14,5 +14,5 @@ serve(async (req) => {
     }
   }
 
-  return new Response.redirect("https://t.me/denonentbot", 302);
+  return Response.redirect("https://t.me/denonentbot", 302);
 });
