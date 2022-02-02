@@ -1,5 +1,5 @@
 import { Bot } from "./deps.ts";
-
+import help from "./help.ts";
 const token = Deno.env.get("TOKEN");
 
 if (typeof token === "undefined") {
@@ -8,6 +8,6 @@ if (typeof token === "undefined") {
 
 const bot = new Bot(token);
 
-bot.on("message", (ctx) => ctx.reply("Hi there!"));
+bot.use(help)
 
 export default bot;
