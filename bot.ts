@@ -8,6 +8,6 @@ if (typeof token === "undefined") {
 
 const bot = new Bot(token);
 
-bot.use(help)
+bot.use(help);
 
 export default bot;
