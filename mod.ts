@@ -1,4 +1,3 @@
-// You might modify this to the correct way to import your `Bot` object.
 import bot from "./bot.ts";
 
 import { serve, webhookCallback } from "./deps.ts";
@@ -16,7 +15,7 @@ serve(async (req) => {
   }
 
   if (req.method == "GET") {
-    return "https://t.me/denonentbot"
+    return "https://t.me/denonentbot";
   }
 
   return new Response();
