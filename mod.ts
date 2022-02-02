@@ -15,7 +15,8 @@ serve(async (req) => {
   }
 
   if (req.method == "GET") {
-    return new Response("https://t.me/denonentbot");
+    bot.api.setWebhook("https://denonent.deno.dev/")
+    return new Response("Done! https://t.me/denonentbot");
   }
 
   return new Response();
