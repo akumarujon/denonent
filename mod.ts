@@ -15,7 +15,7 @@ serve(async (req) => {
   }
 
   if (req.method == "GET") {
-    return "https://t.me/denonentbot";
+    return new Response("https://t.me/denonentbot");
   }
 
   return new Response();
