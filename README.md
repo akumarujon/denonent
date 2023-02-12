@@ -1,6 +1,6 @@
 # denonent
 
-[denonent/serve.ts](./serve.ts) is written by (Katsuki Yuri)[https://github.com/katsuki-yuri/]
+[denonent/serve.ts](./serve.ts) is written by [Katsuki Yuri](https://github.com/katsuki-yuri/)
 
 ## Usage
 ### Fork this repository.
