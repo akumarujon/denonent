@@ -1,6 +1,6 @@
 # denonent
 
-The telegram bot of denoland
+[denonent/serve.ts](./serve.ts) is written by (Katsuki Yuri)[https://github.com/katsuki-yuri/]
 
 ## Usage
 ### Fork this repository.
@@ -9,7 +9,7 @@ And login with your Github account on [Deno Deploy](https://deno.com/deploy)
 ### Create a new Deno project on deno deploy.
 <br>
 
-![image](./assets/new-project.png)
+<img width=450 src="./assets/new-project.png">
 
 Choose your repo and branch.
 
@@ -17,22 +17,20 @@ Choose your repo and branch.
 ### Add env variable
 <br>
 
-![image](./assets/token.png)
+<img width=450 src="./assets/token.png">
 
 ## Then press the Link button.
 <br>
 
 # Webhook
-Copy domain of this project.
-Copy your bot token.
-
-Open the browser and type
+Simply send HTTP Request to /webhook URL.
+Example
 ```
-https://api.telegram.org/bot{TOKEN}/setwebhook?url={URL}
+https://denonent.deno.dev/webhook
 ```
-Put your token instead of {TOKEN}
-Put your url instead of {URL}
+Result <br>
+![image](./assets/webhook.png)
 
-Don't forget to remove the curly brackets.
 
-## It shows OK message. Now your bot is working. If it's not feel free to create an issue or join our [Telegram Group](https://t.me/denolanduz)
+
+Now your bot is working. If it's not, feel free to create an issue or join our [Telegram Group](https://t.me/denolanduz)
